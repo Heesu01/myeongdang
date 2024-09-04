@@ -1,0 +1,62 @@
+/* src/Main.css */
+.Main {
+  text-align: center;
+}
+
+.card-list {
+  display: flex;
+  overflow-x: auto;
+  padding: 20px;
+  white-space: nowrap;
+  margin: 0 50px;
+}
+
+.card {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  width: 200px;
+  margin: 10px;
+  overflow: hidden;
+  flex: 0 0 auto;
+  margin-top: 0;
+}
+
+.card-image {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+}
+
+.card-content {
+  padding: 10px;
+}
+
+.card-content h3 {
+  margin: 0 0 10px 0;
+  font-size: 18px;
+}
+
+.card-content p {
+  margin: 5% 0;
+  color: #555;
+}
+
+section {
+  margin: 20px 0;
+}
+
+section h1 {
+  text-align: left;
+  margin-left: 80px;
+  margin-bottom: 0;
+  margin-top: 50px;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.card.study-card {
+  width: 300px;
+  height: 160px;
+  background-color: #ffffff;
+  padding: 10px;
+}

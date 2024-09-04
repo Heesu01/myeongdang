@@ -1,0 +1,116 @@
+.container {
+  width: 75%;
+  margin: auto;
+  display: flex;
+  margin-top: 40px;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: white;
+  text-align: center;
+}
+
+#header1 {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+}
+
+aside {
+  margin-top: 10px;
+  width: 150px;
+  background-color: #d9d9d9;
+  color: black;
+  height: 300px;
+  padding: 15px;
+  border-radius: 10px;
+  text-align: left;
+}
+
+aside ul {
+  list-style: none;
+  padding: 0;
+}
+
+aside ul li {
+  padding: 10px;
+  border-bottom: 1px solid #444;
+}
+
+aside ul li:hover {
+  background-color: #555;
+  color: white;
+}
+
+footer {
+  background-color: #007bff;
+  color: white;
+  text-align: center;
+  padding: 10px 20px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+main {
+  flex: 1;
+  padding: 20px;
+  background-color: white;
+}
+
+.search-bar {
+  margin-bottom: 20px;
+}
+
+.search-bar input {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 2px solid #0d63e4;
+  border-radius: 5px;
+}
+
+.posts-list {
+  margin-top: 20px;
+}
+
+.post {
+  /* background-color: #f8f8f8; */
+  border: 1px solid #ddd;
+  padding: 15px;
+  margin-bottom: 10px;
+  height: 130px;
+  text-align: left;
+  border-radius: 5px;
+}
+
+.post h3 {
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.post p {
+  color: #666;
+  margin-bottom: 30px;
+}
+
+.selected-dept-content h2 {
+  text-align: left;
+  margin-bottom: 50px;
+  margin-top: 0px;
+}
+
+.selected-dept-content1 h2 {
+  text-align: left;
+  margin-bottom: 50px;
+  margin-top: 0px;
+}
+.selected-dept-content2 h2 {
+  text-align: left;
+  margin-bottom: 50px;
+  margin-top: 0px;
+}
